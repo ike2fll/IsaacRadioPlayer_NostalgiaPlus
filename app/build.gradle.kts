@@ -13,7 +13,6 @@ android {
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
-
         vectorDrawables { useSupportLibrary = true }
     }
 
@@ -48,7 +47,6 @@ dependencies {
     implementation("androidx.media3:media3-ui:1.3.1")
     implementation("androidx.media3:media3-session:1.3.1")
 
-    // נועל androidx.media לגרסה 1.6.0 (כדי לא לדרוש SDK 35)
+    // נועל androidx.media לגרסה 1.6.0 (לא דורש SDK 35)
     implementation("androidx.media:media:1.6.0")
 }
-        
